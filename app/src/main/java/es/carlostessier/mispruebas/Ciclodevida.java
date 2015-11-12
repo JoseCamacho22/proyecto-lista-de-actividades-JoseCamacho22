@@ -6,7 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 public class Ciclodevida extends AppCompatActivity {
 
 
-    private static final String TAG = Ciclodevida.class.getName();
+       private static final String TAG = Ciclodevida.class.getName();
 
     @Override
 
