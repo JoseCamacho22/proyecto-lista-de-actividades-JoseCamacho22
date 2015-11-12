@@ -15,7 +15,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".pruebas1" >
+        <activity android:name=".Pruebas1" >
+        </activity>
+        <activity
+            android:name=".Ciclodevida"
+            android:label="@string/title_activity_ciclodevida"
+            android:theme="@style/AppTheme.NoActionBar" >
         </activity>
     </application>
 
