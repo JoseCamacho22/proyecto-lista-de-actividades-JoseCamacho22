@@ -11,6 +11,9 @@
     <string name="title_activity_intents__act_02">Intents_Act_02</string>
     <string name="title_activity_intents__act_02_b">Intents_Act_02_b</string>
     <string name ="EditText"></string>
+    <string name="title_activity_intents__act_03">Intents_Act_03</string>
+    <string name="title_activity_intents__act_03_b">Intents_Act_03_b</string>
+    <string name="Edt2">Vuelvo a la activity principal</string>
 </resources>
 
 

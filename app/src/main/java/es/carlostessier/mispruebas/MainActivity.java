@@ -13,7 +13,7 @@ public class MainActivity extends ListActivity {
     final static String TAG = MainActivity.class.getName();
 
 
-    String[] pruebas = {"Pruebas1", "Ciclodevida", "Pulsame", "Intents_Act_01","Intents_Act_02"};
+    String[] pruebas = {"Pruebas1", "Ciclodevida", "Pulsame", "Intents_Act_01","Intents_Act_02","Intents_Act_03"};
     private Class[] practicasClass;
 
 
@@ -34,7 +34,8 @@ public class MainActivity extends ListActivity {
                 Ciclodevida.class,
                 Pulsame.class,
                 Intents_Act_01.class,
-                Intents_Act_02.class
+                Intents_Act_02.class,
+                Intents_Act_03.class,
 
 
 
