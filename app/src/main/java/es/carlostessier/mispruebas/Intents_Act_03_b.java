@@ -23,6 +23,7 @@ public class Intents_Act_03_b extends AppCompatActivity {
         int num1 = bundle.getInt("num1");
         int num2 = bundle.getInt("num2");
         //Dentro del toast les pasamos las cadenas y los enteres que hemos declarado
+       // anteriormente
         Toast.makeText(this, str + "\n" + str2 + "\n" + Integer.toString(num1)+"\n" +Integer.toString(num2), Toast.LENGTH_LONG).show();
 
     }
