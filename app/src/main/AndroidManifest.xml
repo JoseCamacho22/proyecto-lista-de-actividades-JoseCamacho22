@@ -22,6 +22,28 @@
             android:label="@string/title_activity_ciclodevida"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
+        <activity android:name=".Pulsame" >
+        </activity>
+        <activity
+            android:name=".Intents_Act_01"
+            android:label="@string/title_activity_intents__act_01"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".Intents_Act_01_b"
+            android:label="@string/title_activity_intents__act_01_b"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".Intents_Act_02"
+            android:label="@string/title_activity_intents__act_02"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".Intents_Act_02_b"
+            android:label="@string/title_activity_intents__act_02_b"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
     </application>
 
 </manifest>
