@@ -10,7 +10,7 @@
     <string name="text2act">  Esta es La Segunda activity! </string>
     <string name="title_activity_intents__act_02">Intents_Act_02</string>
     <string name="title_activity_intents__act_02_b">Intents_Act_02_b</string>
-    <string name="EditText"/>
+    <string name="EditText" />
     <string name="title_activity_intents__act_03">Intents_Act_03</string>
     <string name="title_activity_intents__act_03_b">Intents_Act_03_b</string>
     <string name="Edt2">Vuelvo a la activity principal</string>
@@ -18,6 +18,8 @@
     <string name="web">www.uem.es</string>
     <string name="telefono">Telefono</string>
     <string name="localizacion">localizacion</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_broadcast_receiver">BroadcastReceiver</string>
 
 </resources>
 

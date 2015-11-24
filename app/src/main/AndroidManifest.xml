@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="es.carlostessier.mispruebas">
 
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -15,40 +17,55 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Pruebas1"></activity>
+        <activity android:name=".Pruebas1" />
         <activity
             android:name=".Ciclodevida"
             android:label="@string/title_activity_ciclodevida"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
-        <activity android:name=".Pulsame"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Pulsame" />
         <activity
             android:name=".Intents_Act_01"
             android:label="@string/title_activity_intents__act_01"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".Intents_Act_01_b"
             android:label="@string/title_activity_intents__act_01_b"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".Intents_Act_02"
             android:label="@string/title_activity_intents__act_02"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".Intents_Act_02_b"
             android:label="@string/title_activity_intents__act_02_b"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".Intents_Act_03"
             android:label="@string/title_activity_intents__act_03"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".Intents_Act_03_b"
             android:label="@string/title_activity_intents__act_03_b"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".ImplicitIntents"
             android:label="@string/title_activity_implicit_intents"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <receiver
+            android:name=".MyReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <!--action android:name="android.intent.action.BOOT_COMPLETED" />-->
+                <action android:name="CUSTOM_INTENT"></action>
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".BroadcastReceiver"
+            android:label="@string/title_activity_broadcast_receiver">
+        </activity>
     </application>
 
 </manifest>
