@@ -3,17 +3,22 @@
     <string name="title_activity_ciclodevida">ciclodevida</string>
     <string name="title_activity_intents__act_01">Intents_Act_01</string>
     <string name="title_activity_intents__act_01_b"> Muestra La Segunda activity </string>
-    <string name= "title_activity_pulsame"> Pulsame </string>
-    <string name = "Button"> Pulsame </string>
-    <string name = "BtnPulsame"> Pulsa el boton </string>
-    <string name = "btn2"> Muestra La Segunda activity </string>
-    <string name= "text2act">  Esta es La Segunda activity! </string>
+    <string name="title_activity_pulsame"> Pulsame </string>
+    <string name="Button"> Pulsame </string>
+    <string name="BtnPulsame"> Pulsa el boton </string>
+    <string name="btn2"> Muestra La Segunda activity </string>
+    <string name="text2act">  Esta es La Segunda activity! </string>
     <string name="title_activity_intents__act_02">Intents_Act_02</string>
     <string name="title_activity_intents__act_02_b">Intents_Act_02_b</string>
-    <string name ="EditText"></string>
+    <string name="EditText"/>
     <string name="title_activity_intents__act_03">Intents_Act_03</string>
     <string name="title_activity_intents__act_03_b">Intents_Act_03_b</string>
     <string name="Edt2">Vuelvo a la activity principal</string>
+    <string name="title_activity_implicit_intents">ImplicitIntents</string>
+    <string name="web">www.uem.es</string>
+    <string name="telefono">Telefono</string>
+    <string name="localizacion">localizacion</string>
+
 </resources>
 
 

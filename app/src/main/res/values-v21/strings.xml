@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="Edt2" />
+    <string name="web">www.uem.es</string>
+    <string name="telefono">Telefono</string>
 </resources>
